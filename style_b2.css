@@ -1,0 +1,457 @@
+.header1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalnia', serif;
+
+}
+.logo{
+    margin-left:  40%;
+}
+body { 
+    background: #080808;
+    color: #fff;
+    font-family: 'Kalnia', serif;
+    
+}
+
+.header1{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/img_screenshot.png);
+    background-size: 300px;
+    background-position: right;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+
+}
+
+.about{
+    padding: 80px 0;
+    color: #ababab;
+
+}
+.row{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col1{
+    flex-basis: 35%;
+
+}
+
+.about-col1 img {
+    width: 100%;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.about-col2{
+    flex-basis: 60%;
+
+}
+.about-col2 p{
+    justify-content: flex-end;
+}
+.sub-title{
+    margin-left: 30px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+
+}
+#tekst1{
+    position: absolute;
+    width: 40%;
+    left: 720px;
+    top: 250px;
+}
+
+
+.tab-contents active-tab #ervaring{
+    position: absolute;
+    left: 720px;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position:relative;
+
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+
+}
+.tab-contents ul li span{
+    color: blanchedalmond;
+    font-size: 14px;
+}
+.tab-contents{
+    display: none;
+
+}
+.tab-contents.active-tab{
+    display: block;
+
+}
+   
+   
+
+
+.hover2{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: url(images/IMG_3882.jpeg);
+}
+
+.hover3{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: url(images/760C9F71-FA33-4B31-B0DF-C580C1045C11.jpg);
+}
+.hover4{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: url(images/DEDE42A4-882D-4C0C-81EA-2908632F203E.jpg);
+}
+
+.hover5{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_1145.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover6{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC03434.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover7{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC03448_kopie_2.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover8{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC03431.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover9{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC02190.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover10{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC02191.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover11{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC02332.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover12{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC02909.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover13{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_0009.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover14{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_0049.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover15{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_0080.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover16{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_0186.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover17{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC02690_kopie_2.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover18{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/DSC02896_kopie_2.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}.hover19{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: url(images/DSC03328.JPG);
+
+}
+.card :hover{
+    transform: translateY(-10px);
+}
+/*-------------contact-------------*/
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+
+.contact-left p{
+    margin-top: 30px;
+
+}
+.contact-right form{
+    width: 100%;
+
+}
+form input, form textarea{
+    width: 95%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    margin-right: 25px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+/*-----------index--------------*/
+
+
+.hover20{
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_3882.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.front20 :hover{
+    transform: translateY(-8px);
+}
+.front3{
+    width: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_3501.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.front3 :hover{
+    transform: translateY(-8px);
+}
+.front4{
+    width: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_8329.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.front4 :hover{
+    transform: translateY(-8px);
+}
+
+/*---------footer------*/
+
+.footer{
+position: relative;
+
+}
+
+
+
+.border {
+    border-radius: 10px;
+    overflow: hidden;
+}
